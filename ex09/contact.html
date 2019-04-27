@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<htlm>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width"/>
+        <link rel="stylesheet" href="style.css"/>
+        <title>index</title>
+        <link href="php.html">
+        <link href="sql.html">
+    </head>
+
+    <body>
+        <header></header>
+        <nav>
+            <ul>
+                <li> <a href="./sql.html">SQL.html</a></li>
+                <li> <a href="./index.html">index.html</a></li>
+                <li> <a href="./php.html">php.html</a></li>
+                <li> <a href="./contact.html">contact.html</a></li>
+            </ul>
+        </nav>
+        <main>
+            <form method="POST">
+                <input name="nom" placeholder="nom" required><br>
+                <input name="prenom" placeholder="prenom" required><br>
+                <input name="email" placeholder="adresse email" type="email" required><br>
+                <input type="number" min="3" max="99" name= age placeholder="age"><br>
+                <input type="tel" name="phone" pattern="[0-9]{10}" placeholder="téléphone (0123456789)"><br>
+                <span>Sexe: </span><input type="radio" name="radio"><span>Homme</span><input type="radio" name="radio"><span>Femme</span><br>
+                <div>
+                    <span>Couleur préférée: </span> <input type="color" name="color"
+                    value="#000">
+                </div>
+                <span>Date:</span>
+                <input type="date" autocomplete><br>
+                <span>Technologie concerné:</span>
+                <select name="techno">
+                    <option>PHP</option>
+                    <option>SQL</option>
+                    <option>HTML</option>
+                </select><br>
+                <label for="question"></label>
+                <textarea name="question" cols="50" rows="5" placeholder="Une question?"></textarea><br>
+                <input type="submit" name="envoyer" value="Soumettre"/>
+            </form>
+        </main>
+        <aside><p><q>Je vois la beauté dans les règles, le code invisible du chaos qui se cache derrière le visage menaçant de l’ordre.</q>- Elliot Alderson </p></aside>
+        <h1>Welcome to my portfolio</h1>
+        <p>Créatrice d’interfaces Web, Mobile et d’éléments graphiques, je maitrise les outils graphiques (Photoshop, Indesign, Illustrator, etc), Sublim (dreamweaver, Visual studio) pour les développements HTML et CSS.
+            Ayant de réelles compétences artistiques, j’aime créer des logos et réaliser des identités visuelles.
+            Passionnée par la mode et surtout par les robes, j’ai décidé d'acheter écolo, seconde main pour polluer notre magnifique planète. 
+            Notre consommation de vêtements a doublé et nous les conservons deux fois moins longtemps d’ou l’intitulé « fast fashion ». 
+            Cette addiction à la mode et à l’achat compulsif de vêtements se traduit par de lourdes conséquences environnementales et ma petite échelle, je veux 
+        </p>
+        <footer>
+            <p> Nom: LEFORT <br>
+            Prénom: Smaëlle<br>
+            Adresse: 2 rue d'alsace 92110 Clichy la garenne<br>
+            Téléphone:06.27.27.27.27<br>
+            </p>
+        </footer>
+    </body>
+
+

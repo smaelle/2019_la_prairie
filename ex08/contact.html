@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<htlm>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width"/>
+        <link rel="stylesheet" href="style.css"/>
+        <title>index</title>
+        <link href="php.html">
+        <link href="sql.html">
+    </head>
+
+    <body>
+        <header></header>
+        <nav>
+            <ul>
+                <li> <a href="./sql.html">SQL.html</a></li>
+                <li> <a href="./index.html">index.html</a></li>
+                <li> <a href="./php.html">php.html</a></li>
+                <li> <a href="./contact.html">contact.html</a></li>
+            </ul>
+        </nav>
+        <section>
+        <form method="POST">
+            <input name="nom" placeholder="nom" required><br>
+            <input name="prenom" placeholder="prenom" required><br>
+            <input name="email" placeholder="adresse email" type="email" required><br>
+            <input type="number" min="3" max="99" name= age placeholder="age"><br>
+            <input type="tel" name="phone" pattern="[0-9]{10}" placeholder="téléphone (0123456789)"><br>
+            <span>Sexe: </span><input type="radio" name="radio"><span>Homme</span><input type="radio" name="radio"><span>Femme</span><br>
+            <div>
+            <span>Couleur préférée: </span> <input type="color" name="color"
+            value="#000"> 
+            </div>
+            <input type="date" autocomplete><br>
+            <select name="techno">
+                <option>PHP</option>
+                <option>SQL</option>
+                <option>HTML</option>
+            </select><br>
+            <label for="question"></label>
+            <textarea name="question" cols="50" rows="5" placeholder="Une question?"></textarea><br>
+            <input type="submit" name="envoyer" value="Soumettre"/>
+        </form>
+    </section>
+    <aside></aside>
+</body>
+
+
